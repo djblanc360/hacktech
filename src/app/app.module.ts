@@ -17,11 +17,7 @@ import { AppComponent } from './app.component';
         import { AlbumDetailComponent, SafePipe} from './album-detail/album-detail.component';
         import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 // services
-import {SpotifyService} from './spotify.service';]
-import { registerLocaleData } from '@angular/common';
-import en from '@angular/common/locales/en';
-
-registerLocaleData(en);
+import {SpotifyService} from './spotify.service';
 @NgModule({
   declarations: [
     AppComponent,
