@@ -17,8 +17,7 @@ import { AppComponent } from './app.component';
         import { AlbumDetailComponent, SafePipe} from './album-detail/album-detail.component';
         import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 // services
-import {SpotifyService} from './spotify.service';
-import { NgZorroAntdModule, NZ_I18N, en_US } from 'ng-zorro-antd';
+import {SpotifyService} from './spotify.service';]
 import { registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
 
@@ -42,10 +41,9 @@ registerLocaleData(en);
     FormsModule,
     ReactiveFormsModule,
     NgxPaginationModule,
-    BrowserAnimationsModule,
-    NgZorroAntdModule
+    BrowserAnimationsModule
   ],
-  providers: [SpotifyService, { provide: NZ_I18N, useValue: en_US }],
+  providers: [SpotifyService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
