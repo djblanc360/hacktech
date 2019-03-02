@@ -1,27 +1,22 @@
-# Hacktech
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# Ng-Spotify Search App
+this is *Spotify Search App* was created using *Angular 6* and it uses the the *Spotify API* to fetch real time data right from *Spotify*.<br>
+The *main* purpose of the app is to serve as a tutorial to some beginner/intermediate *Angular* concepts, the likes of:
+* HttpClientModule and use it to communicate with the *Spotify API*.
+* Angular Routing (redirection, wildCard, passing data ....).
+* *Services* and *dependency injection*. 
+* _Reactive forms_ (Form Builder, form controls validation ....).
+* How to use the *BrowserAnimationsModule* along with the [ng-animate](https://github.com/jiayihu/ng-animate) module to create beautiful flexible animations. 
+* Angular's built in *directives* (NgIf, NgFor .....) and custom pipes.
+* Data flow (*Inputs and Outputs*).
+# demo
+![preview image gif](./src/assets/images/gifs/app-preview.gif)
+# Install
+After cloning this directory `cd` into it and run:<br>
+`npm install` to install.<br>
+`npm start` to start the project.<br>
+Ps: make sure to generate your own *OAuth Token* from the [Spotify for developers WebSite](https://developer.spotify.com/)
+and initialize with it the `auth var` in the `spotify.service.ts` constructor.
+# Credit 
+* [ngx-pagination](https://github.com/michaelbromley/ngx-pagination).
+* [ng-animate](https://github.com/jiayihu/ng-animate).
+* [404 page](https://codepen.io/saransh/pen/aezht).
